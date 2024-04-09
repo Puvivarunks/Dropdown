@@ -20,10 +20,8 @@ public class AlertPractice {
 		driver.findElement(By.name("j_idt88:j_idt104")).click();
 		driver.switchTo().alert();
 		at.sendKeys("hi");
-		at.accept();
-		
-		
-		driver.close();
+		at.accept();	
+		driver.quit();
 	}
 
 }
