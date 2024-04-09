@@ -1,4 +1,4 @@
-package com.selfour;
+package com.selfour.d;
 
 import java.time.Duration;
 

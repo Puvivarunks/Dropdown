@@ -1,4 +1,4 @@
-package com.selfour;
+package com.selfour.d;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.edge.EdgeDriver;

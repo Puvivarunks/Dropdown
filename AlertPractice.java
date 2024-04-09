@@ -1,4 +1,4 @@
-package com.selfour;
+package com.selfour.d;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -21,6 +21,9 @@ public class AlertPractice {
 		driver.switchTo().alert();
 		at.sendKeys("hi");
 		at.accept();
+		
+		
+		driver.close();
 	}
 
 }
